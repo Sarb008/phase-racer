@@ -1,0 +1,100 @@
+{
+    "version": 1,
+    "name": "PhaseRacerInput",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "d610d015-1192-455f-a6dc-42e5a44a75a6",
+            "actions": [
+                {
+                    "name": "LaneLeft",
+                    "type": "Button",
+                    "id": "393c3e1d-1873-47f1-b285-ff04dc4e2315",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "LaneRight",
+                    "type": "Button",
+                    "id": "622b2e8a-9ea1-4f33-b250-dae0cbf4b5ca",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "PhaseShift",
+                    "type": "Button",
+                    "id": "deb154bb-57ef-4d97-b426-68e2ac8c33d6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ed1e3fa0-16c3-4b67-8a3a-2bfb8d5b9361",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LaneLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eaab403d-6bde-40a8-896d-0719de6efe3d",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LaneLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "166c2c55-30aa-4534-b511-5464e922e02c",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LaneRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "88ff4ab8-cc87-4ede-8c1b-02f93a081c2f",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LaneRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "572a54cc-3e67-450f-a90a-bb094614d382",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PhaseShift",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
