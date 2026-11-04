@@ -42,3 +42,11 @@ sysinfo.txt
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Third-party Unity Asset Store packages
+/Assets/StarSparrow/
+/Assets/StarSparrow.meta
+/Assets/Modular_SciFi_Pack (146 Objects, LowPoly)/
+/Assets/Modular_SciFi_Pack (146 Objects, LowPoly).meta
+/Assets/FreeSciFi/
+/Assets/FreeSciFi.meta
